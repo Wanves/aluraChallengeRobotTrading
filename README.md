@@ -32,7 +32,7 @@ url = "https://www.example.com"
 response = requests.get(url)
 
 html = response.content
-Utiliza el código con precaución. Más información
+
 Analizar el código fuente de la página web.
 Una vez que se ha obtenido el código fuente de la página web, se puede utilizar una biblioteca como Beautiful Soup para analizarlo y extraer los datos deseados.
 
@@ -42,7 +42,6 @@ from bs4 import BeautifulSoup
 soup = BeautifulSoup(html, "html.parser")
 
 datos = soup.find_all("div", class_="datos")
-Utiliza el código con precaución. Más información
 Almacenar los datos.
 Una vez que se han extraído los datos deseados, se pueden almacenar en un archivo o base de datos.
 
@@ -50,7 +49,6 @@ Python
 with open("datos.csv", "w") as f:
     for dato in datos:
         f.write(dato.text + "\n")
-Utiliza el código con precaución. Más información
 Ejemplo de web scraping con Python
 
 El siguiente código es un ejemplo de cómo utilizar Beautiful Soup para extraer los títulos de las noticias de la página web de CNN:
@@ -71,7 +69,6 @@ noticias = soup.find_all("h3", class_="cnn-headline")
 
 for noticia in noticias:
     print(noticia.text)
-Utiliza el código con precaución. Más información
 Este código imprimirá los siguientes títulos:
 
 Últimas noticias
