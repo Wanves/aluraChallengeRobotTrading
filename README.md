@@ -1,3 +1,5 @@
+![future-artificial-intelligence-robot-cyborg-1024x620](https://github.com/Wanves/aluraChallengeRobotTrading/assets/107213869/238f4574-68a7-4fbe-a8c0-b6385546b505)
+
 # aluraChallengeRobotTrading
 #aluraChallengeRobotTrading
 
